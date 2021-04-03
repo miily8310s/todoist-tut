@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-// import moment from 'moment';
 import dayjs from 'dayjs';
 import { firebase } from '../firebase';
 import { collatedTasksExist } from '../helpers';

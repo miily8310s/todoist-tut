@@ -7,8 +7,6 @@ export const Tasks = () => {
   const { tasks }: { tasks: Task[] } = useTasks('1');
   const projects: any = useProjects().projects;
 
-  console.log(tasks);
-
   let projectName = '';
 
   return (
